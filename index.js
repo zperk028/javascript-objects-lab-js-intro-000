@@ -1,5 +1,5 @@
 function updateObjectWithKeyAndValue(object, key, value) {
-  object.create[key] = value
+  object[key] = value
 
   return object
 }
